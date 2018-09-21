@@ -1,0 +1,58 @@
+/*------------------------------*\
+    BUTTON
+\*------------------------------*/
+
+/**
+ * Block
+ */
+
+.button {
+    font-family: arial;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 30px;
+    color: $ns-blue;
+
+    transition: box-shadow 0.3s;
+
+    @include hocus() {
+        cursor: pointer;
+    }
+}
+
+/**
+ * Elements 
+ */
+
+.button__label, 
+.button__icon {
+    &:not(:first-child) {
+        margin-left: 10px;
+    }
+}
+
+.button__icon {
+    flex: 0 0 auto;
+}
+
+.button__label {
+    flex: 1 1 auto;
+}
+
+/**
+ * Modifiers
+ */
+
+.button--block {
+    display: block;
+}
+
+.button--yellow {
+    color: $ns-darkblue;
+    background-color: $ns-yellow;
+    box-shadow: inset 0 -2px $ns-darkyellow;
+
+    @include hocus() {
+        box-shadow: inset 0 -200px $ns-darkyellow;
+    }
+}

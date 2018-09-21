@@ -1,0 +1,32 @@
+{
+  "name": "html_css_workshop",
+  "version": "1.0.0",
+  "description": "Workshop containing some examples showing HTML and CSS best practices in action",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.9.3",
+    "precss": "^3.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "cssnano": "^4.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csssavvy/htmlcssworkshop.git"
+  },
+  "author": "Wouter Schaap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csssavvy/htmlcssworkshop/issues"
+  },
+  "homepage": "https://github.com/csssavvy/htmlcssworkshop#readme"
+}
